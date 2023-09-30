@@ -1,0 +1,23 @@
+@tailwind base;
+@layer base {
+  body {
+    @apply min-h-screen bg-gray-100;
+  }
+}
+@tailwind components;
+@layer components {
+  input {
+    @apply w-full outline-none border border-gray-200 px-2 py-1 rounded-lg;
+  }
+  .pageTemplate1 {
+    @apply w-full lg:w-4/5 min-h-[calc(100vh-48px)] flex justify-center items-center p-4 mx-auto;
+  }
+  .pageTemplate2 {
+    @apply p-4 w-full min-h-[calc(100vh-48px)] flex flex-col gap-4;
+  }
+  .pageTemplate3 {
+    @apply w-full h-full p-4 flex flex-col justify-start items-center gap-2 bg-white border-2 rounded-lg;
+  }
+}
+
+@tailwind utilities;
