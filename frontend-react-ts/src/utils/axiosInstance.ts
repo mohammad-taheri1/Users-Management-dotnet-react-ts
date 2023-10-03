@@ -8,4 +8,4 @@ axiosInstance.interceptors.response.use(
   (error) => Promise.reject((error.response && error.response) || 'General Axios Error happend')
 );
 
-export default axios;
+export default axiosInstance;
