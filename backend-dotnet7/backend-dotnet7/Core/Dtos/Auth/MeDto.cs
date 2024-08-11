@@ -1,7 +1,6 @@
-﻿namespace backend_dotnet7.Core.Dtos.Auth
+﻿namespace backend_dotnet7.Core.Dtos.Auth;
+
+public class MeDto
 {
-    public class MeDto
-    {
-        public string Token { get; set; }
-    }
+    public string Token { get; set; }
 }
